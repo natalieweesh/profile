@@ -1,0 +1,361 @@
+h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+  }
+  body {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  ul {
+    list-style: none;
+  }
+  p, small {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .tab {
+    background: #CFE9AA;
+    position: relative;
+    left: 496px;
+    top: -30px;
+    width: 55px;
+    height: 28px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .special-tab {
+    position: relative;
+    left: 510px;
+    top: -30px;
+    width: 28px;
+    height: 55px;
+    
+  /*  background: url('tentacle-1.png') no-repeat 0 0;*/
+  }
+  .tab > a {
+    font-size: 14px;
+    padding: 2px 0;
+    margin: 0;
+  }
+  ul:hover h3, .tab:hover a, #contact-link:hover, .banner-tab:hover {
+    color: #FFA011;
+  }
+  ul:hover h3 {
+    text-shadow: 1px 1px 0 #000,
+              -1px -1px 0 #000,
+              1px -1px 0 #000,
+              -1px 1px 0 #000,
+              0px 1px 0 #000,
+              1px 0px 0 #000,
+              0px -1px 0 #000,
+              -1px 0px 0 #000;
+  }
+  .header {
+    padding: 20px 0 5px;
+  }
+  .project {
+    position: relative;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px 10px 0;
+    background: #eee;
+    border-radius: 20px;
+    min-height: 165px;
+  /*  transition: background-color 1s ease-in-out;*/
+  }
+  .dude {
+    visibility: hidden;
+  }
+  #dude1 {
+    width: 120px;
+    height: 100px;
+    background: url("dude1.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 500;
+    top: -73px;
+  }
+  #dude2 {
+    width: 120px;
+    height: 100px;
+    background: url("dude2.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 500;
+    top: -73px;
+  }
+  #dude3 {
+    width: 120px;
+    height: 100px;
+    background: url("dude3.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 500;
+    top: -73px;
+  }
+  #dude4 {
+    width: 120px;
+    height: 100px;
+    background: url("dude4.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 500;
+    top: -73px;
+  }
+  .band {
+    background: #eee;
+    position: relative;
+  }
+  .project:hover {
+    background: #C4FCF7;
+  /*  transition: background-color 1s ease-in-out;*/
+  }
+  .project:hover p, .project:hover small {
+    color: #fff;
+    text-shadow: 1px 1px 0 #000,
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                0px 1px 0 #000,
+                1px 0px 0 #000,
+                0px -1px 0 #000,
+                -1px 0px 0 #000;
+  }
+  .asteroids-project:hover {
+    background: #000000 url('asteroids_gif.gif') no-repeat center;
+  }
+  .snake-project:hover {
+    background: #FCF4D1 url('snake_gif.gif') no-repeat center;
+  }
+  .shuffle-project:hover {
+    background: #D8D8D8 url('shuffle_gif.gif') no-repeat center;
+  }
+  .wanderful-project:hover {
+    background: #27282E url('wanderful_gif.gif') no-repeat center;
+  }
+  .lineposters-project:hover {
+    background: #efefef url('lineposters_gif.gif') no-repeat center top;
+  }
+  .bfx-project:hover {
+    background: #000 url('bfx_gif.gif') no-repeat center top;
+  }
+  .jirafe-project:hover {
+    background: #33cccc url('jirafe_gif.gif') no-repeat center top;
+  }
+  .denisemari-project:hover {
+    background: #00bbb3 url('denisemari_gif.gif') no-repeat center top;
+  }
+  .wtgrant-project:hover {
+    background: #784493 url('wtgrant_gif.gif') no-repeat center top;
+  }
+  .meowvelous-project:hover {
+    background: #5F8121 url('meowvelous_gif.gif') no-repeat center;
+  }
+  .eyeballs-project:hover {
+    background: #394445 url('eyeballs_gif.gif') no-repeat center;
+  }
+  .coffee-project:hover {
+    background: #fff url('coffee_gif.gif') no-repeat center;
+  }
+  .project h3 {
+    padding: 7px 0;
+  }
+  .git-link {
+    background: pink;
+    width: 55px;
+    padding: 1px 0 5px;
+    left: 497px;
+    bottom: 30px;
+    position: relative;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    margin: 0;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .links li {
+    display: flex;
+  }
+  .links li a {
+    padding: 25px 35px;
+    position: relative;
+    z-index: 1000;
+  }
+  .links li a:hover {
+    color: #FFA011;
+  }
+  .extra-padding {
+    padding-bottom: 20px;
+  }
+  .intro {
+    margin: 0 auto;
+    padding: 30px 1em;
+    max-width: 800px;
+  }
+  .title {
+    padding: 20px 0;
+  }
+  footer {
+   padding: 70px 0 20px; 
+  }
+  figure {
+    width: 40px;
+    height: 40px;
+    background: url('NW1.gif') no-repeat 0 0;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+  }
+  li:hover > .dude {
+    visibility: visible;
+  }
+  
+  .banner-tab {
+    display: block;
+    position: absolute;
+    top: 0;
+    -webkit-transition: top 0.8s, z-index 0 0.8s;
+    -moz-transition: top 0.8s, z-index 0 0.8s;
+    -o-transition: top 0.8s, z-index 0 0.8s;
+    transition: top 0.8s, z-index 0 0.8s;
+    z-index: -1;
+    border-radius: 0 0 5px 5px;
+    padding: 0.4em 0.5em;
+    font-size: 14px;
+    background: #CFE9AA;
+    right: 10%;
+    &.visible {
+      top: 100%;
+      z-index: 1;
+    }
+  }
+  @media (max-width: 768px) {
+    ul h3 {
+      color: #FFA011;
+      text-shadow: 1px 1px 0 #000,
+              -1px -1px 0 #000,
+              1px -1px 0 #000,
+              -1px 1px 0 #000,
+              0px 1px 0 #000,
+              1px 0px 0 #000,
+              0px -1px 0 #000,
+              -1px 0px 0 #000;
+    }
+    .project p, .project small {
+      color: #fff;
+      text-shadow: 1px 1px 0 #000,
+              -1px -1px 0 #000,
+              1px -1px 0 #000,
+              -1px 1px 0 #000,
+              0px 1px 0 #000,
+              1px 0px 0 #000,
+              0px -1px 0 #000,
+              -1px 0px 0 #000;
+    }
+    .asteroids-project {
+      background: #000000 url('asteroids_gif.gif') no-repeat center;
+    }
+    .snake-project {
+      background: #FCF4D1 url('snake_gif.gif') no-repeat center;
+    }
+    .shuffle-project {
+      background: #D8D8D8 url('shuffle_gif.gif') no-repeat center;
+    }
+    .wanderful-project {
+      background: #27282E url('wanderful_gif.gif') no-repeat center;
+    }
+    .lineposters-project {
+      background: #efefef url('lineposters_gif.gif') no-repeat center top;
+    }
+    .bfx-project {
+      background: #000 url('bfx_gif.gif') no-repeat center top;
+    }
+    .jirafe-project {
+      background: #33cccc url('jirafe_gif.gif') no-repeat center top;
+    }
+    .denisemari-project {
+      background: #00bbb3 url('denisemari_gif.gif') no-repeat center top;
+    }
+    .wtgrant-project {
+      background: #784493 url('wtgrant_gif.gif') no-repeat center top;
+    }
+    .meowvelous-project {
+      background: #5F8121 url('meowvelous_gif.gif') no-repeat center;
+    }
+    .eyeballs-project {
+      background: #394445 url('eyeballs_gif.gif') no-repeat center;
+    }
+    .coffee-project {
+      background: #fff url('coffee_gif.gif') no-repeat center;
+    }
+  }
+  @media (max-width: 600px) {
+    .links {
+      max-width: 600px;
+    }
+    .links li a {
+      font-size: 18px;
+      padding: 25px 20px;
+    }
+    #dude3 {
+      margin-left: -20px;
+    }
+    #dude2 {
+      margin-left: -13px;
+    }
+    .project {
+      width: 350px;
+    }
+    .project:hover {
+      background-size: cover;
+    }
+    .tab {
+      left: 346px;
+    }
+    .special-tab {
+      left: 360px;
+    }
+  }
+  
+  @media (max-width: 512px) {
+    .links li a {
+      font-size: 16px;
+      padding: 25px 20px;
+    }
+  }
+  @media (max-width: 450px) {
+    .links li a {
+      padding: 25px 10px;
+    }
+    .project {
+      width: 242px;
+    }
+    .project:hover {
+      background-size: cover;
+    }
+    .tab {
+      left: 238px;
+    }
+    .special-tab {
+      left: 252px;
+    }
+    #portfolio-link {
+      padding-right: 0;
+    }
+  }
