@@ -229,21 +229,13 @@ h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
   .banner-tab {
     display: block;
     position: absolute;
-    top: 0;
-    -webkit-transition: top 0.8s, z-index 0 0.8s;
-    -moz-transition: top 0.8s, z-index 0 0.8s;
-    -o-transition: top 0.8s, z-index 0 0.8s;
-    transition: top 0.8s, z-index 0 0.8s;
-    z-index: -1;
+    top: 100%;
+    z-index: 1;
     border-radius: 0 0 5px 5px;
     padding: 0.4em 0.5em;
     font-size: 14px;
     background: #CFE9AA;
     right: 10%;
-    &.visible {
-      top: 100%;
-      z-index: 1;
-    }
   }
   @media (max-width: 768px) {
     ul h3 {
