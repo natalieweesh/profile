@@ -339,13 +339,13 @@ h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
     .mahjong-project {
       background: #89c589 url('mahjong_gif.gif') no-repeat center;
     }
-    .blokus-project:hover {
+    .blokus-project {
       background: #eee url('blokus_gif.gif') no-repeat center;
     }
-    .sushi-project:hover {
+    .sushi-project {
       background: #e8c2d9 url('sushi_gif.gif') no-repeat center;
     }
-    .banana-project:hover {
+    .banana-project {
       background: #F1C400 url('banana_gif.gif') no-repeat center;
     }
   }
