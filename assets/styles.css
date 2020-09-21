@@ -192,6 +192,9 @@ h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
   .sushi-project:hover {
     background: #e8c2d9 url('sushi_gif.gif') no-repeat center;
   }
+  .banana-project:hover {
+    background: #F1C400 url('banana_gif.gif') no-repeat center;
+  }
   .project h3 {
     padding: 7px 0;
   }
@@ -341,6 +344,9 @@ h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
     }
     .sushi-project:hover {
       background: #e8c2d9 url('sushi_gif.gif') no-repeat center;
+    }
+    .banana-project:hover {
+      background: #F1C400 url('banana_gif.gif') no-repeat center;
     }
   }
   @media (max-width: 600px) {
