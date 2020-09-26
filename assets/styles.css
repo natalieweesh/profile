@@ -195,6 +195,9 @@ h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
   .banana-project:hover {
     background: #F1C400 url('banana_gif.gif') no-repeat center;
   }
+  .basta-project:hover {
+    background: #92FE9D url('basta_gif.gif') no-repeat center;
+  }
   .project h3 {
     padding: 7px 0;
   }
@@ -347,6 +350,9 @@ h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
     }
     .banana-project {
       background: #F1C400 url('banana_gif.gif') no-repeat center;
+    }
+    .basta-project {
+      background: #92FE9D url('basta_gif.gif') no-repeat center;
     }
   }
   @media (max-width: 600px) {
