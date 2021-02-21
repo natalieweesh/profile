@@ -162,6 +162,9 @@ h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
   .wtgrant-project:hover {
     background: #784493 url('wtgrant_gif.gif') no-repeat center top;
   }
+  .bobsburgers-project:hover {
+    background: #e3ac6a url('bobsburgers_gif.gif') no-repeat center;
+  }
   .meowvelous-project:hover {
     background: #5F8121 url('meowvelous_gif.gif') no-repeat center;
   }
@@ -317,6 +320,9 @@ h1, h2, h3, body, ul, li, ol, p, body, div, a, footer, figure {
     }
     .wtgrant-project {
       background: #784493 url('wtgrant_gif.gif') no-repeat center top;
+    }
+    .bobsburgers-project {
+      background: #e3ac6a url('bobsburgers_gif.gif') no-repeat center;
     }
     .meowvelous-project {
       background: #5F8121 url('meowvelous_gif.gif') no-repeat center;
